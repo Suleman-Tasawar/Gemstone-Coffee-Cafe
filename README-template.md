@@ -1,6 +1,6 @@
 # Frontend Mentor - Stats preview card component solution
 
-This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -25,11 +25,11 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
+- The users should click on the hamburger menu to see the navigation when on a small screen
 
 ### Screenshot
 
 ![ScreenShots of The Website in Browser](Screenshots/screenshot.jpg)
-
 
 ### Links
 
@@ -43,61 +43,62 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+During working on this project i have learned so many things in a practical way.
+I will mention a few of them
+First i leaned how to create a hamburger menu on how it will display on small screens
+Secondly i learned how to position text over an images in top and at center
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<div id="hamburger">
+  <span class="lines"></span>
+  <span class="lines"></span>
+  <span class="lines"></span>
+</div>
 ```
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+#hamburger {
+  display: none;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+}
+
+.lines {
+  display: block;
+  width: 30px;
+  height: 3px;
+  margin: 5px;
+  background-color: white;
+  color: #fafafa;
+}
+
+.home-content {
+  position: absolute;
+  width: 350px;
+  color: #fafafa;
+  top: 25%;
+  left: 15%;
 }
 ```
+
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+let ham = document.querySelector("#hamburger");
+    let menu = document.querySelector(".nav");
+    ham.addEventListener("click", () => {
+      menu.classList.toggle("open");
+      ham.classList.toggle("close");
+    });
+};
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
+Note that i am still working on this Project this isnt a finished version of the Project.I still have a lot of things to add to this Website and alot of thing to optimize
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Website - [Suleman Tasawar](https://www.suleman-tasawar-portfolio.on.drv.tw/pages/)
