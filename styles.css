@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*For the Layouts*/
+
+#header {
+  padding: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(16, 16, 94);
+  color: #fafafa;
+}
+
+#menu,
+#employee {
+  height: 350px;
+  margin-top: 1%;
+  margin-top: 1%;
+  background: rgb(4, 4, 43);
+  color: #fafafa;
+}
+
+#home {
+  font-size: 1.1rem;
+  height: 500px;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+    url("Images/img\ \(4\).jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  line-height: 1.5;
+}
+
+.menues,
+.employees {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Images*/
+
+.menu,
+.emp {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  padding-bottom: 1%;
+}
+
+.menu img,
+.emp img {
+  max-width: 250px;
+  max-height: 250px;
+  border-radius: 15px;
+}
+
+.emp-1 img {
+  width: 200px;
+  height: 170px;
+  min-width: 250px;
+  min-height: 150px;
+}
+.address img,
+.phone img {
+  width: 50px;
+  height: 50px;
+}
+/*Typography*/
+ul,
+li {
+  display: inline;
+  padding: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fafafa;
+  font-weight: 600;
+}
+
+#hamburger {
+  display: none;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+}
+
+.lines {
+  display: block;
+  width: 30px;
+  height: 3px;
+  margin: 5px;
+  background-color: white;
+  color: #fafafa;
+}
+
+.home-content {
+  position: absolute;
+  width: 350px;
+  color: #fafafa;
+  top: 25%;
+  left: 15%;
+}
+
+.home-content button {
+  width: 170px;
+  height: 40px;
+  background: darkblue;
+  color: #fafafa;
+  border: none;
+  border-radius: 30px;
+}
+
+.menu-titles,
+.employee-titles {
+  text-align: center;
+}
+
+.menu-title {
+  position: absolute;
+  top: 2%;
+  left: 10%;
+}
+
+#location {
+  margin-top: 1%;
+  padding-bottom: 2rem;
+  height: 350px;
+  background-color: rgb(4, 4, 37);
+  color: #fafafa;
+}
+
+.phone,
+.address {
+  padding-bottom: 1rem;
+  display: flex;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .nav {
+    background-color: dodgerblue;
+    border-radius: 6px;
+    position: fixed;
+    top: 5%;
+    right: 0;
+    opacity: 0;
+  }
+
+  .nav.open {
+    opacity: 1;
+  }
+
+  ul,
+  li {
+    display: block;
+  }
+
+  #hamburger {
+    display: block;
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    opacity: 1;
+  }
+
+  #home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+  }
+
+  .home-content {
+    width: 300px;
+    left: 7%;
+  }
+
+  #menu,
+  #employee {
+    height: auto;
+  }
+  .employees,
+  .menues {
+    flex-direction: column;
+  }
+
+  .menu,
+  .emp {
+    margin: 2rem;
+    width: 200px;
+    height: 200px;
+    padding-bottom: 2rem;
+  }
+
+  .contacts {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+  }
+}

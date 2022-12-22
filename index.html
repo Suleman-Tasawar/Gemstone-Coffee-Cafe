@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Gemstone Cafe</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo">
+        <h1>Gem Cafe</h1>
+      </div>
+
+      <nav class="nav-bar">
+        <div id="hamburger">
+          <span class="lines"></span>
+          <span class="lines"></span>
+          <span class="lines"></span>
+        </div>
+
+        <div class="nav">
+          <ul>
+            <li><a href="#home"> Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#employee">Employees</a></li>
+            <li><a href="#location">Location</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <div class="home-content">
+          <h1>Wanna try something new</h1>
+
+          <br />
+
+          <p>
+            We are serving a wide variety of Coffee flavours that you can try
+            and for today we are providing <strong>30% OFF</strong> on your very
+            first order
+          </p>
+
+          <br />
+
+          <button>Explore Now</button>
+        </div>
+      </section>
+
+      <section id="menu">
+        <div class="menu-titles">
+          <h1>Our Menu Include</h1>
+        </div>
+
+        <div class="menues">
+          <div class="menu">
+            <img src="Images/img (2).jpg" alt="Menu1" />
+            <div class="menu-title">
+              <h3>Delight Coffee</h3>
+            </div>
+          </div>
+          <div class="menu">
+            <img src="Images/img (3).jpg" alt="Menu2" />
+            <div class="menu-title">
+              <h3>Enchanto Coffee</h3>
+            </div>
+          </div>
+          <div class="menu">
+            <img src="Images/img (1).jpg" alt="Menu3" />
+            <div class="menu-title">
+              <h3>La Gasta Coffee</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="employee">
+        <div class="employee-titles">
+          <h1>Here are our Hardworking Employees</h1>
+        </div>
+
+        <div class="employees">
+          <div class="emp emp-1">
+            <img
+              src="Images/employee.jpg"
+              alt="Image of our Hardworking Employees"
+            />
+            <div class="emp-title">
+              <h3>James Royy</h3>
+              <p>Manager of this Cafe</p>
+            </div>
+          </div>
+          <div class="emp">
+            <img
+              src="Images/employee (2).jpg"
+              alt="Image of our Hardworking Employees"
+            />
+            <div class="emp-title">
+              <h3>Lorra Brown</h3>
+              <p>Staff</p>
+            </div>
+          </div>
+          <div class="emp">
+            <img
+              src="Images/employee (3).jpg"
+              alt="Image of our Hardworking Employees"
+            />
+            <div class="emp-title">
+              <h3>Shushant Singh</h3>
+              <p>Staff</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="location">
+        <div class="location">
+          <div class="location-text">
+            <h1>Find Us</h1>
+          </div>
+
+          <div class="location-map">
+            <iframe
+              class="map-location"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13296.775214081077!2d73.00510519999999!3d33.57431699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1671292330827!5m2!1sen!2s"
+              width="300"
+              height="200"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+
+        <div class="contacts">
+          <span class="phone">
+            <img src="Images/phone.png" alt="Phone Number" />
+            <p>1234567890</p>
+          </span>
+
+          <span class="address">
+            <img src="Images/address.png" alt="Cafe Address" />
+            <p>XYZ</p>
+          </span>
+        </div>
+      </section>
+    </main>
+  </body>
+
+  <script>
+    let ham = document.querySelector("#hamburger");
+    let menu = document.querySelector(".nav");
+    ham.addEventListener("click", () => {
+      menu.classList.toggle("open");
+      ham.classList.toggle("close");
+    });
+  </script>
+</html>
