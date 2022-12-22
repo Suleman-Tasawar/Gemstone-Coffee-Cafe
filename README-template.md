@@ -26,12 +26,13 @@ Users should be able to:
 
 ### Screenshot
 
-![ScreenShots of The Website in Browser](Screenshots/screenshot.jpg)
+![ScreenShots of The Website in PC](Screenshots/screenShot(2).png>)
+![ScreenShots of The Website in Mobile](Screenshots/screenShot(1).png>)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Link to the Github Repo of the Solution](https://github.com/Suleman-Tasawar/Gemstone-Coffee-Cafe)
+- Live Site URL: [Link to the Live Site](https://suleman-tasawar.github.io/Gemstone-Coffee-Cafe/)
 
 ## My process
 
@@ -93,8 +94,8 @@ let ham = document.querySelector("#hamburger");
 ```
 
 ### Continued development
-Note that i am still working on this Project this isnt a finished version of the Project.I still have a lot of things to add to this Website and alot of thing to optimize
 
+Note that i am still working on this Project this isnt a finished version of the Project.I still have a lot of things to add to this Website and alot of thing to optimize
 
 ## Author
 
