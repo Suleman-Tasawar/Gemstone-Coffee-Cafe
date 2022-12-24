@@ -1,6 +1,6 @@
-# Frontend Mentor - Stats preview card component solution
+##Coffee Website
 
-This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This Website is Created for an imaginary Coffee Shop for there basic requirements
 
 ## Table of contents
 
@@ -12,9 +12,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
 - [Author](#author)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -26,8 +23,8 @@ Users should be able to:
 
 ### Screenshot
 
-![ScreenShots of The Website in PC](Screenshots/screenShot(2).png>)
-![ScreenShots of The Website in Mobile](Screenshots/screenShot(1).png>)
+![ScreenShots of The Website in PC](Screenshots/screenShot (2).png>)
+![ScreenShots of The Website in Mobile](Screenshots/screenShot (1).png>)
 
 ### Links
 
