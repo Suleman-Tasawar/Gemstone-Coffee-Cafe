@@ -95,6 +95,10 @@ a {
   font-weight: 600;
 }
 
+a:hover {
+  color: dodgerblue;
+}
+
 #hamburger {
   display: none;
   z-index: 1;
