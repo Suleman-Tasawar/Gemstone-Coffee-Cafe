@@ -99,4 +99,4 @@ Note that i am still working on this Project this isnt a finished version of the
 
 ## Author
 
-- Website - [Suleman Tasawar](https://www.suleman-tasawar-portfolio.on.drv.tw/pages/)
+- Website - [Suleman Tasawar](https://suleman-tasawar-portfolio.on.drv.tw/pages/)
